@@ -1,0 +1,33 @@
+[{
+        "id": 1,
+        "priority": 10,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "side",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "image"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 10,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "bnr",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "image"
+            ]
+        }
+    }
+]

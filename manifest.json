@@ -1,0 +1,41 @@
+{
+    "name": "DosparaLite",
+    "description": "ドスパラのサイトを軽量化する",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "html/popup.html"
+    },
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [{
+                "id": "scriptblock",
+                "enabled": true,
+                "path": "rules/scriptblock.json"
+            },
+            {
+                "id": "adblock",
+                "enabled": true,
+                "path": "rules/adblock.json"
+            },
+            {
+                "id": "styleblock",
+                "enabled": true,
+                "path": "rules/styleblock.json"
+            }
+        ]
+    },
+    "host_permissions": [
+        "https://www.dospara.co.jp/*"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "https://www.dospara.co.jp/*"
+        ],
+        "css": [
+            "css/main.css"
+        ]
+    }]
+}

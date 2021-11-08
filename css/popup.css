@@ -1,0 +1,13 @@
+body {
+    width: 250px;
+}
+
+p {
+    margin: 0px;
+}
+
+.alert {
+    margin-bottom: 8px;
+    font-size: 8px;
+    color: #aaaaaa;
+}

@@ -1,0 +1,81 @@
+[{
+        "id": 2,
+        "priority": 10,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "*",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 20,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "base.css",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 20,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "module.css",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "priority": 20,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "top_home.css",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 20,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "game_top.css",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    }
+]
