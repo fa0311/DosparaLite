@@ -2,7 +2,7 @@
         "id": 2,
         "priority": 10,
         "action": {
-            "type": "allow"
+            "type": "block"
         },
         "condition": {
             "urlFilter": "*",
@@ -70,6 +70,54 @@
         },
         "condition": {
             "urlFilter": "game_top.css",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "priority": 20,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "str_search.css",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "priority": 20,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "desktop.css",
+            "domains": [
+                "www.dospara.co.jp"
+            ],
+            "resourceTypes": [
+                "stylesheet"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "priority": 20,
+        "action": {
+            "type": "allow"
+        },
+        "condition": {
+            "urlFilter": "desktop_new.css",
             "domains": [
                 "www.dospara.co.jp"
             ],
