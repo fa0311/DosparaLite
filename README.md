@@ -1,7 +1,7 @@
 # DosparaLite
 
 ドスパラのサイトを軽量化する Chrome 拡張機能<br>
-MV2 の declarativeNetRequestAPI を使用<br>
+MV3 の declarativeNetRequestAPI を使用<br>
 
 # Installation
 
